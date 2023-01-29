@@ -1,4 +1,7 @@
 @font-face {
     font-family: 'aviano sans';
     src: url(aviano_sans_regular-webfont.woff) format('woff');
-}    
+}  
+h1{
+    font-family: 'aviano sans'
+} 
