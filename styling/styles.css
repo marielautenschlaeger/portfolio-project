@@ -2,6 +2,10 @@
     font-family: 'aviano sans';
     src: url(aviano_sans_regular-webfont.woff) format('woff');
 } 
+@font-face {
+    font-family: 'baskerville display pt';
+    src: url(baskerville_display_pt_webfont.woff) format('woff');
+} 
 :root {
     --adhesion-background-color: rgba(250, 250, 250, 0.9);
 }
@@ -19,8 +23,61 @@ h1{
     padding-top: 20px;
     font-size: 24px !important;
 } 
+h2{
+    font-family: 'aviano sans';
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px !important;
+}
+h3{
+    font-family: 'aviano sans';
+    text-align: left;
+    padding-top: 20px;
+    font-size: 14px !important;
+}
+h4{
+    font-family: 'aviano sans';
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px !important;
+}
+h5{
+    font-family: 'aviano sans';
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px !important;
+}
+
 .navbar{
     font-family: 'aviano sans';
     font-size: 14px;
     color: black !important
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.baskerville-small{
+    font-family: 'baskerville display pt';
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.baskerville-big{
+    font-family: 'baskerville display pt';
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+@media ( max-width: 960px ) {
+     .baskerville-big {
+        text-align: center !important
+    };
+
+    h1{
+        text-align: center !important;
+        font-size: 24px !important
+    }
 }
