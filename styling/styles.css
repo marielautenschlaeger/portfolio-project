@@ -73,6 +73,7 @@ h5{
     font-family: 'baskerville display pt';
     font-size: 30px !important;
     text-align: left;
+    padding-left: 200px;
     font-style: italic;
     font-weight: bold;
 }
@@ -87,3 +88,11 @@ h5{
     font-family: 'aviano sans'!important;
     font-size: 14px;
 }
+
+.contact-me{
+    font-family: 'aviano sans'!important;
+    font-size: 14px;
+}
+iframe[seamless] {
+    display: block
+  }
