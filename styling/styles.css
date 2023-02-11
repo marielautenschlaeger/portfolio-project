@@ -69,6 +69,13 @@ h5{
     font-style: italic;
     font-weight: 400;
 }
+.baskerville-bold{
+    font-family: 'baskerville display pt';
+    font-size: 30px !important;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
 
 @media (max-width:375px){
     h1{
