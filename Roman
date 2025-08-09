@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/styling/styles.css">
+    <link rel="font" href="/src/aviano_sans_regular-webfont.woff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Web Developing and Interior Design by Marie Lautenschläger">
-    <title>Marie Lautenschläger</title>
+    <meta name="description" content="Info page about Maries work">
+    <title>About- Marie Lautenschläger</title>
     <link rel="icon" type="image/png" href="/images/favicon.png"/>
 </head>
 <body>
-  <div class="col-12 d-none d-lg-block d-xl-block">
+    <div class="col-12 d-none d-lg-block d-xl-block">
     <nav class="navbar navbar-expand-lg navbar bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="/"></a>
@@ -20,19 +21,20 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" title="homepage" href="/">HOME</a>
-              <a class="nav-link" title="Info Page about Marie" href="/about.html">ABOUT</a>
-              <a class="nav-link" title="Contact Marie" href="/contact.html">CONTACT</a>
+              <a class="nav-link" aria-current="page" href="/">HOME</a>
+              <a class="nav-link active" href="/about.html">ABOUT</a>
+              <a class="nav-link" href="/contact.html">CONTACT</a>
             </div>
+
           </div>
         </div>
       </nav>
-      </div>
+    </div>
 
-      <h1 class="text-center pt-4"> <a class="text-decoration-none text-dark" href="/index.html" title="back to homepage">MARIE LAUTENSCHLÄGER</a> </h1>
+      <h1 class="text-center pt-4"> <a class="text-decoration-none text-dark" href="/index.html">MARIE LAUTENSCHLÄGER</a> </h1>
 
      <div class="header-menu d-flex justify-content-evenly">
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,22 +43,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 grid gap-4 ">
                   <li class="nav-item dropdown p-2 g-col-3">
-                    <a class="nav-link dropdown-toggle" href="/galerie.html" title="Image Gallery of work and impressions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       GALERIE
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="/galerie.html">GALERIE</a></li>
+                      <li><a class="dropdown-item" href="#">GALERIE</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown p-2 g-col-3">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      CODING
+                    <a class="nav-link dropdown-toggle" href="/interior.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      WORK
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" title="link to Interior design portfolio" href="https://www.shecodes.io/graduates/27372-marie-lautenschlager">ME @ SHECODES</a></li>
-                      <li><a class="dropdown-item" title="link to webdesing project portfolio" href="/web-development.html">WEB DEVELOPMENT</a></li>
+                      <li><a class="dropdown-item" href="/interior.html">INTERIOR DESIGN</a></li>
+                      <li><a class="dropdown-item" href="/web-development.html">WEB DEVELOPMENT</a></li>
                       <li><hr class="dropdown-divider"></li>
-    
+                      <li><a class="dropdown-item" href="/galerie.html">GALERIE</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown p-2 g-col-3">
@@ -78,31 +80,29 @@
 
      <div class="container d-flex justify-content-evenly pt-5 pb-5">
         <div class="row">
-            <div class="col-lg-3">
-              <img class="img-fluid d-none d-md-block" src="/images/glas-and-paper-image.jpg" width="300px" alt="an image of a glas and a newsaper">
-                <h3>THOUGHTS</h3>
-                <p class="baskerville-small">Gibt es was besseres als frischen Kaffee und eine Zeitung am Morgen?</p>
-                <img class="img-fluid d-none d-md-block" src="/images/Carnations-image.jpg" width="300px" alt="a photograph of pretty carnations">
-                <h3>GALERIE</h3>
-                <p class="baskerville-small">I Like Carnations very much and recently took pretty pictures of them</p>
+            <div class="col-lg-6">
+                <p class="baskerville-small"> Am 19. August 2019 legte ich eine Word-Datei an — mit dem Arbeitstitel „Im Zweifel immer Mayonnaise“. Seitdem habe ich unzählige Erfahrungen gesammelt, tausende kleine Notizen auf meinem Handy geschrieben und dieses Jahr all diese Fragmente zu einem Ganzen zusammengefügt.
+
+Sechs Jahre später ist mein neuer Roman endlich fertig. Mayo spielt keine Rolle mehr, dafür aber Rias Welt — und wie beängstigend und aufregend zugleich das Leben, die Liebe und das Erwachsenwerden zwischen Mitte und Ende zwanzig für unsere Generation sind.</p>
+                <br>
+                <p class="baskerville-small">So, genug geschwafelt. Ich hab ein Buch geschrieben, stehen Wörter drin und ich hoffe ich kann diese eine kleine Ecke in eurer Seele damit ganz leicht anstupsen.</p>
+                <br>
+                <p class="baskerville-small">Hier bestellen</p>
+                <br>
+                <a class="btn btn-dark" href="#">Link zu BoD</a>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid" src="/images/paris-image.jpg" width="700px" alt="a photograph of rooftops in paris">
-                <h5> Hi, Welcome... </h5>
-                <p class="baskerville-small"> ...to my little online home I coded line by line, where words, images, and quiet moments live together.</p>
-            </div>
-            <div class="col-lg-3">
-                <a class="baskerville-small text-dark text-right" href="#">Mein neuer Roman beziehungsweise. ist draußen. Hier kann er bestellt werden.</a>
-                <img class="img-fluid d-none d-md-block" src="/images/cover beziehungsweise 2.PNG" width="300px" alt="the cover of my new novel beziehungsweise">
+                <img class="img-fluid" src="images/beziehungsweise Video.mp4" width="500px" alt="A Photo of Marie">
             </div>
         </div>
-     </div>
-     <footer>
+
+    </div>
+    <footer>
       <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-1">
-            <img src="/images/footer-logo.png" alt="Marie Lautenschläger Logo" width="100px" class="pt-4 pb-4">
+            <img src="/images/footer-logo.png" alt="Logo with name" width="100px" class="pt-4 pb-4">
           </div>
 <div class="col-lg-2 pt-5">
 <p class="baskerville-small text-light pb-4 ">This website represents my work and ideas.</p>
