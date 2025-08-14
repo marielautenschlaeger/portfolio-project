@@ -8,7 +8,7 @@
 } 
 @font-face {
     font-family: 'Schooner-Script-Regular';
-    src: url(Schooner-Script-Regular.woff) format('woff');
+    src: url(src\Schooner_Script_Regular_webfont.woff) format('woff');
 }
 :root {
     --adhesion-background-color: rgba(250, 250, 250, 0.9);
