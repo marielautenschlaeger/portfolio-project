@@ -137,3 +137,6 @@ iframe[seamless] {
 em {
     font-style: normal;
 }
+#images img {
+    margin: 25px;
+}
